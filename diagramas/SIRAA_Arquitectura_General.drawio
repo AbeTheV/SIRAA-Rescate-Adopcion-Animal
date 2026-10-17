@@ -1,0 +1,31 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Página-1" id="wEFgoSNoo0LwSAl6UCNY">
+    <mxGraphModel dx="2426" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-PgAy8uYlE4oz19smXFK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-PgAy8uYlE4oz19smXFK-1" target="-PgAy8uYlE4oz19smXFK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PgAy8uYlE4oz19smXFK-1" value="&lt;div&gt;Capa de presentación&lt;/div&gt;&lt;div&gt;Interfaz web&lt;/div&gt;&lt;div&gt;Formularios de rescate&lt;/div&gt;&lt;div&gt;Consulta de casos&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="110" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-PgAy8uYlE4oz19smXFK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-PgAy8uYlE4oz19smXFK-2" target="-PgAy8uYlE4oz19smXFK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PgAy8uYlE4oz19smXFK-2" value="&lt;div&gt;Capa de control&lt;/div&gt;&lt;div&gt;Controladores del sistema&lt;/div&gt;&lt;div&gt;Validación de solicitudes&lt;/div&gt;&lt;div&gt;Gestión de accesos&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="250" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-PgAy8uYlE4oz19smXFK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-PgAy8uYlE4oz19smXFK-3" target="-PgAy8uYlE4oz19smXFK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PgAy8uYlE4oz19smXFK-3" value="&lt;div&gt;Capa de lógica de negocio&lt;/div&gt;&lt;div&gt;GestorRescates (Singleton)&lt;/div&gt;&lt;div&gt;NotificadorRescate (Observer)&lt;/div&gt;&lt;div&gt;FabricaExpedientes (Factory Method)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="390" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-PgAy8uYlE4oz19smXFK-4" value="&lt;div&gt;Capa de datos&lt;/div&gt;&lt;div&gt;Animales&lt;/div&gt;&lt;div&gt;Expedientes de rescate&lt;/div&gt;&lt;div&gt;Usuarios y adopciones&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="534.5" width="280" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

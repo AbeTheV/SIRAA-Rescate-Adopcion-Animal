@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Página-1" id="wEFgoSNoo0LwSAl6UCNY">
+    <mxGraphModel dx="1213" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NThGM_-wClcVtsfWzTjR-1" value="Ciudadano" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="20" y="100" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-2" value="Gestor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="260" y="100" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-3" value="Fábrica" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="500" y="101" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-4" value="Expediente" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="727" y="234" width="100" height="486" as="geometry" />
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-5" value="Notificador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="950" y="101" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-6" value="Voluntario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1200" y="101" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="NThGM_-wClcVtsfWzTjR-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90.00043478260875" y="186" as="sourcePoint" />
+            <mxPoint x="309.5" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-9" value="1: registrarRescate(datosAnimal)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0584" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309.7592592592591" y="234.0000000000001" as="sourcePoint" />
+            <mxPoint x="549.5" y="234.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-11" value="2: crearExpediente(especie)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-10" vertex="1" connectable="0">
+          <mxGeometry x="0.0125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549.7592592592591" y="282.0000000000001" as="sourcePoint" />
+            <mxPoint x="776.5" y="282.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-13" value="3: «create»" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-12" vertex="1" connectable="0">
+          <mxGeometry x="0.0422" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-14" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549.5" y="333.0000000000001" as="sourcePoint" />
+            <mxPoint x="309.7592592592591" y="333.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-15" value="4: expedienteCreado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.0475" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308.96153846153857" y="386.9999999999998" as="sourcePoint" />
+            <mxPoint x="776.5" y="386.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-17" value="5: actualizarEstado(&quot;Rescatado&quot;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.0176" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308.96153846153857" y="435.9999999999998" as="sourcePoint" />
+            <mxPoint x="999.5" y="435.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-19" value="6: notificar(&quot;Nuevo rescate registrado&quot;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-18" vertex="1" connectable="0">
+          <mxGeometry x="0.0261" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="NThGM_-wClcVtsfWzTjR-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="998.9615384615386" y="478.9999999999998" as="sourcePoint" />
+            <mxPoint x="1220.4999999999995" y="478.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-21" value="7: actualizar(&quot;Nuevo rescate registrado&quot;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.0031" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="999.5" y="515.9999999999998" as="sourcePoint" />
+            <mxPoint x="308.96153846153857" y="515.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-23" value="8: notificacionEnviada" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.0483" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-24" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309.5" y="554.9999999999998" as="sourcePoint" />
+            <mxPoint x="68.96153846153857" y="554.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-25" value="9: rescateRegistrado(idExpediente)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NThGM_-wClcVtsfWzTjR-24" vertex="1" connectable="0">
+          <mxGeometry x="0.0243" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NThGM_-wClcVtsfWzTjR-26" value="Diagrama de secuencia – Registro de rescate y notificación (SIRAA)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="320" y="30" width="760" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
