@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Listado de rescates del Sistema SIRAA">
+    <title>SIRAA | Consultar rescates</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>SIRAA</h1>
+        <p>Sistema Integral de Rescate y Adopción Animal</p>
+        <p>Consulta y seguimiento de rescates</p>
+    </header>
+
+    <nav aria-label="Navegación principal">
+        <h2>Menú principal</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reportar.html">Reportar rescate</a></li>
+            <li>
+                <a href="rescates.html" aria-current="page">
+                    Consultar rescates
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section aria-labelledby="titulo-rescates">
+            <h2 id="titulo-rescates">Listado de rescates</h2>
+
+            <p>
+                En esta sección se presentan casos ficticios
+                de rescate animal para demostrar la estructura
+                de una tabla semántica HTML5.
+            </p>
+
+            <article>
+                <h3>Registro general de casos</h3>
+
+                <table>
+                    <caption>
+                        Casos de rescate registrados - Datos de ejemplo
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Código</th>
+                            <th scope="col">Animal</th>
+                            <th scope="col">Especie</th>
+                            <th scope="col">Ubicación</th>
+                            <th scope="col">Urgencia</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">RES-001</th>
+                            <td>Luna</td>
+                            <td>Perro</td>
+                            <td>Manta - Tarqui</td>
+                            <td>Alta</td>
+                            <td>En tratamiento</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">RES-002</th>
+                            <td>Michu</td>
+                            <td>Gato</td>
+                            <td>Manta - Los Esteros</td>
+                            <td>Media</td>
+                            <td>En observación</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">RES-003</th>
+                            <td>Ave rescatada</td>
+                            <td>Fauna silvestre</td>
+                            <td>Montecristi</td>
+                            <td>Alta</td>
+                            <td>Derivación especializada</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">RES-004</th>
+                            <td>Max</td>
+                            <td>Perro</td>
+                            <td>Manta - Barbasquillo</td>
+                            <td>Baja</td>
+                            <td>En evaluación para adopción</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">RES-005</th>
+                            <td>Nala</td>
+                            <td>Gato</td>
+                            <td>Manta - Centro</td>
+                            <td>Media</td>
+                            <td>Rescatado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section aria-labelledby="estados">
+            <h2 id="estados">Estados de los rescates</h2>
+
+            <article>
+                <h3>Clasificación del seguimiento</h3>
+
+                <dl>
+                    <dt>Rescatado</dt>
+                    <dd>
+                        El animal ha sido localizado y registrado
+                        en el sistema.
+                    </dd>
+
+                    <dt>En observación</dt>
+                    <dd>
+                        El animal está siendo evaluado para
+                        determinar su condición.
+                    </dd>
+
+                    <dt>En tratamiento</dt>
+                    <dd>
+                        El animal recibe atención veterinaria.
+                    </dd>
+
+                    <dt>En evaluación para adopción</dt>
+                    <dd>
+                        Se analiza si un animal doméstico cumple
+                        las condiciones para una adopción responsable.
+                    </dd>
+
+                    <dt>Derivación especializada</dt>
+                    <dd>
+                        El animal requiere atención de personal
+                        o autoridades competentes.
+                    </dd>
+                </dl>
+            </article>
+        </section>
+
+        <section aria-labelledby="resumen">
+            <h2 id="resumen">Resumen de los casos de ejemplo</h2>
+
+            <article>
+                <h3>Distribución por especie</h3>
+
+                <ul>
+                    <li>Perros: 2 casos</li>
+                    <li>Gatos: 2 casos</li>
+                    <li>Fauna silvestre: 1 caso</li>
+                </ul>
+
+                <p>Total de casos ficticios presentados: 5.</p>
+            </article>
+        </section>
+
+        <section aria-labelledby="nuevo-reporte">
+            <h2 id="nuevo-reporte">¿Encontraste un animal?</h2>
+
+            <article>
+                <h3>Registrar un nuevo caso</h3>
+                <p>
+                    Utiliza el formulario de SIRAA para
+                    describir el hallazgo de un animal.
+                </p>
+
+                <p>
+                    <a href="reportar.html">
+                        Ir al formulario de rescate
+                    </a>
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Universidad Técnica de Manabí</p>
+        <p>Desarrollo de Sistemas Informáticos - Unidad 2</p>
+        <p>Proyecto académico SIRAA - 2026</p>
+    </footer>
+
+</body>
+</html>
