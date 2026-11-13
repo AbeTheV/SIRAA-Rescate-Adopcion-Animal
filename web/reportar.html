@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de reporte de rescates del Sistema SIRAA">
+    <title>SIRAA | Reportar rescate</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>SIRAA</h1>
+        <p>Sistema Integral de Rescate y Adopción Animal</p>
+        <p>Formulario de registro de un nuevo rescate</p>
+    </header>
+
+    <nav aria-label="Navegación principal">
+        <h2>Menú principal</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="reportar.html" aria-current="page">
+                    Reportar rescate
+                </a>
+            </li>
+            <li><a href="rescates.html">Consultar rescates</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section aria-labelledby="titulo-reporte">
+            <h2 id="titulo-reporte">Registrar un nuevo rescate</h2>
+
+            <p>
+                Complete la información del animal encontrado.
+                Los campos marcados como obligatorios deben
+                completarse antes de enviar el formulario.
+            </p>
+
+            <article>
+                <h3>Datos del rescate</h3>
+
+                <form action="reportar.html" method="get">
+
+                    <fieldset>
+                        <legend>Identificación del animal</legend>
+
+                        <p>
+                            <label for="nombre">
+                                Nombre provisional o título del caso:
+                            </label>
+                            <input
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                minlength="3"
+                                maxlength="100"
+                                required
+                            >
+                        </p>
+
+                        <p>
+                            <label for="especie">Especie:</label>
+                            <select id="especie" name="especie" required>
+                                <option value="">Seleccione una especie</option>
+                                <option value="perro">Perro</option>
+                                <option value="gato">Gato</option>
+                                <option value="fauna-silvestre">
+                                    Fauna silvestre
+                                </option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="ubicacion">
+                                Ubicación del rescate:
+                            </label>
+                            <input
+                                type="text"
+                                id="ubicacion"
+                                name="ubicacion"
+                                maxlength="150"
+                                required
+                            >
+                        </p>
+
+                        <p>
+                            <label for="fecha">Fecha del hallazgo:</label>
+                            <input
+                                type="date"
+                                id="fecha"
+                                name="fecha"
+                                required
+                            >
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Evaluación inicial del rescate</legend>
+
+                        <p>Seleccione el nivel de urgencia médica:</p>
+
+                        <p>
+                            <input
+                                type="radio"
+                                id="alta"
+                                name="urgencia"
+                                value="alta"
+                                required
+                            >
+                            <label for="alta">Alta</label>
+                        </p>
+
+                        <p>
+                            <input
+                                type="radio"
+                                id="media"
+                                name="urgencia"
+                                value="media"
+                            >
+                            <label for="media">Media</label>
+                        </p>
+
+                        <p>
+                            <input
+                                type="radio"
+                                id="baja"
+                                name="urgencia"
+                                value="baja"
+                            >
+                            <label for="baja">Baja</label>
+                        </p>
+
+                        <p>
+                            <label for="descripcion">
+                                Descripción del estado del animal:
+                            </label>
+                        </p>
+
+                        <p>
+                            <textarea
+                                id="descripcion"
+                                name="descripcion"
+                                rows="6"
+                                cols="50"
+                                minlength="10"
+                                maxlength="1000"
+                                required
+                            ></textarea>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Datos de contacto del reportante</legend>
+
+                        <p>
+                            <label for="reportante">
+                                Nombre del reportante:
+                            </label>
+                            <input
+                                type="text"
+                                id="reportante"
+                                name="reportante"
+                                required
+                            >
+                        </p>
+
+                        <p>
+                            <label for="correo">
+                                Correo electrónico:
+                            </label>
+                            <input
+                                type="email"
+                                id="correo"
+                                name="correo"
+                                required
+                            >
+                        </p>
+                    </fieldset>
+
+                    <p>
+                        <button type="submit">
+                            Validar y enviar formulario
+                        </button>
+                        <button type="reset">
+                            Limpiar formulario
+                        </button>
+                    </p>
+
+                </form>
+            </article>
+        </section>
+
+        <section aria-labelledby="informacion">
+            <h2 id="informacion">Información importante</h2>
+
+            <article>
+                <h3>Alcance del prototipo</h3>
+                <p>
+                    Este formulario es una demostración académica
+                    de HTML5. Valida los campos mediante el navegador,
+                    pero todavía no almacena datos en una base de datos.
+                </p>
+                <p>
+                    No introduzca información personal real.
+                    Utilice únicamente datos ficticios de prueba.
+                </p>
+            </article>
+
+            <article>
+                <h3>Fauna silvestre</h3>
+                <p>
+                    Los casos relacionados con fauna silvestre deben
+                    canalizarse mediante las autoridades competentes
+                    y no implican adopción doméstica automática.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Universidad Técnica de Manabí</p>
+        <p>Desarrollo de Sistemas Informáticos - Unidad 2</p>
+        <p>Proyecto académico SIRAA - 2026</p>
+    </footer>
+
+</body>
+</html>
